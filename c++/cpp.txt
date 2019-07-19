@@ -14,6 +14,10 @@
 #pragma
 #undef
 
+defined
+__has_cpp_attribute
+__has_include
+
 // ANSI C89/ISO C90 reserved word
 auto
 break,2
@@ -54,6 +58,15 @@ _Complex
 _Imaginary
 //inline
 restrict
+
+// C11 reserved word
+_Alignas
+_Alignof
+_Atomic
+_Generic
+_Noreturn
+_Static_assert
+_Thread_local
 
 // C++ 1998-2003 reserved word
 and,2
@@ -99,20 +112,37 @@ wchar_t
 xor,2
 xor_eq,2
 
-// C++0x reserved word
-//alignof
-//axiom
-//char16_t
-//char32_t
-//concept
-//concept_map
-//constexpr
-//decltype
-//late_check
-//nullptr,2
-//requires
-//static_assert
-//thread_local
+// C++11 reserved word
+alignas
+alignof
+char16_t
+char32_t
+constexpr
+decltype
+noexcept
+nullptr,2
+requires
+static_assert,2
+thread_local
+
+// C++11 identifiers with special meaning
+final
+override
+
+// C++20 reserved word
+char8_t
+concept
+consteval
+co_await,2
+co_return,2
+co_yield,2
+requires
+
+// C++20 identifiers with special meaning
+audit
+axiom
+import
+module
 
 // ANSI C89/ISO C90 standard library
 BUFSIZ
@@ -708,8 +738,10 @@ accumulate
 adjacent_difference
 adjacent_find
 auto_ptr
+back_inserter
 bad_alloc
 bad_exception
+basic_string
 binary_function
 binary_negate
 binary_search
@@ -759,6 +791,7 @@ includes
 inner_product
 inplace_merge
 invalid_argument
+ios_base
 is_heap
 istringstream
 iter_swap
@@ -820,10 +853,12 @@ push_heap
 queue
 random_shuffle
 range_error
+rbegin
 //remove
 remove_copy
 remove_copy_if
 remove_if
+rend
 replace
 replace_copy
 replace_copy_if
@@ -859,6 +894,7 @@ stringstream
 swap
 swap_ranges
 transform
+trunc
 unary_function
 unary_negate
 underflow_error
@@ -871,6 +907,91 @@ wistringstream
 wostringstream
 wstring
 wstringstream
+
+// C++11 standard library (incomplete)
+all_of
+any_of
+array
+async
+atomic
+bad_function_call
+basic_regex
+call_once
+cbegin
+cend
+copy_n
+crbegin
+crend
+chrono
+condition_variable
+deferred
+detach
+duration
+duration_cast
+emplace_back
+find_if_not
+function
+future
+high_resolution_clock
+hours
+iota
+join
+joinable
+launch
+lock_guard
+make_tuple
+microseconds
+milliseconds
+minutes
+move
+mutex
+nanoseconds
+none_of
+notify_all
+notify_one
+nullptr_t
+promise
+random_device
+regex
+regex_error
+rep
+seconds
+shared_ptr
+shrink_to_fit
+steady_clock
+system_clock
+this_thread
+thread
+tie
+time_point
+try_lock
+tuple
+unique_lock
+unique_ptr
+wait
+wait_for
+wait_until
+weak_ptr
+wregex
+
+// C++17 standard library (incomplete)
+any
+any_cast
+bad_any_cast
+bad_optional_access
+bad_variant_access
+holds_alternative
+make_any
+make_optional
+monostate
+nullopt
+nullopt_t
+optional
+variant
+variant_alternative
+variant_npos
+variant_size
+visit
 
 // extra keywords
 BOOL
