@@ -1,0 +1,75 @@
+// Go keywords
+
+// Reserved word
+break,2
+case,2
+chan
+const
+continue,2
+default,2
+defer,2
+else,2
+fallthrough,2
+for,2
+func
+go,2
+goto,2
+if,2
+import,2
+interface
+map
+package
+range,2
+return,2
+select,2
+struct
+switch,2
+type
+var
+
+// Predeclared identifier : Type
+bool
+byte
+complex64
+complex128
+error
+float32
+float64
+int
+int8
+int16
+int32
+int64
+rune
+string
+uint
+uint8
+uint16
+uint32
+uint64
+uintptr
+
+// Predeclared identifier : Constant
+false
+iota
+true
+
+// Predeclared identifier : Zero value
+nil,2
+
+// Predeclared identifier : Function
+append
+cap
+close
+complex
+copy
+delete
+imag
+len
+make
+new
+panic
+print
+println
+real
+recover
