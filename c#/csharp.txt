@@ -1,4 +1,4 @@
-// C# keywords (from MSDN, C# 3.0)
+// C# keywords (from Microsoft Docs, C# 8.0)
 
 // reserved word
 abstract
@@ -80,24 +80,35 @@ void
 while,2
 
 // context keyword
-//add,2
-//dynamic
+add
+alias
+ascending
+async
+await
+by
+descending
+dynamic
+equals
 from
 get
-//global
+global
 group
 into
 join
 let
+nameof,2
+on
 orderby
 partial
-//remove,2
+remove
 select
 set
-value,2
+unmanaged
+value
 var
+when
 where
-yield
+yield,2
 
 // preprocessor directive
 #define
