@@ -147,14 +147,42 @@ willSet
 .size
 .some
 
+AdditiveArithmetic
+BinaryFloatingPoint
+BinaryInteger
+CaseIterable
+Codable
+CodingKey
 Collection
 Comparable
+CustomDebugStringConvertible
+CustomStringConvertible
+Decodable
+Decoder
+Encodable
+Encoder
 Equatable
 Error
+FixedWidthInteger
+FloatingPoint
 Hashable
 IteratorProtocol
+KeyedDecodingContainerProtocol
+KeyedEncodingContainerProtocol
+LosslessStringConvertible
+Numeric
 OptionSet
+RawRepresentable
 Sequence
+SignedInteger
+SignedNumeric
+SingleValueDecodingContainer
+SingleValueEncodingContainer
+Strideable
+UnicodeCodec
+UnkeyedDecodingContainer
+UnkeyedEncodingContainer
+UnsignedInteger
 
 Array
 AutoreleasingUnsafeMutablePointer
@@ -181,14 +209,18 @@ CVarArg
 CWideChar
 Character
 ClosedRange
+CodingUserInfoKey
 CountableClosedRange
 CountableRange
+DecodingError
 Dictionary
 Double
+EncodingError
 Float
 Float32
 Float64
 Float80
+Hasher
 ImplicitlyUnwrappedOptional
 Int
 Int16
@@ -197,6 +229,8 @@ Int64
 Int8
 IntegerLiteralType
 KeyValuePairs
+KeyedDecodingContainer
+KeyedEncodingContainer
 MemoryLayout
 Never
 OpaquePointer
@@ -204,6 +238,10 @@ Optional
 Range
 Result
 Set
+StaticString
+StaticString.ExtendedGraphemeClusterLiteralType
+StaticString.StringLiteralType
+StaticString.UnicodeScalarLiteralType
 String
 String.CharacterView
 UInt
@@ -211,6 +249,17 @@ UInt16
 UInt32
 UInt64
 UInt8
+Unicode
+Unicode.ASCII
+Unicode.CanonicalCombiningClass
+Unicode.GeneralCategory
+Unicode.NumericType
+Unicode.ParseResult
+Unicode.Scalar
+Unicode.UTF16
+Unicode.UTF32
+Unicode.UTF8
+UnicodeDecodingResult
 Unmanaged
 UnsafeBufferPointer
 UnsafeMutableBufferPointer
@@ -254,6 +303,8 @@ zip
 
 // Miscellaneous Words: Apple Libraries (incomplete)
 Cocoa
+CoreAudio
+CoreMIDI
 AVFoundation
 AudioToolbox
 AudioUnit
@@ -285,8 +336,11 @@ AVMIDIPlayer
 AudioBuffer
 AudioBufferList
 AudioDeviceID
+AudioObjectID
 AudioObjectPropertyAddress
 AudioObjectPropertyScope
+AudioObjectPropertySelector
+AudioStreamID
 Bundle
 Bundle.main
 CFString
@@ -383,9 +437,13 @@ UserDefaults.standard
 
 AppDelegate
 
+kAudioDevicePropertyLatency
+kAudioDevicePropertyNominalSampleRate
+kAudioDevicePropertySafetyOffset
 kAudioDevicePropertyScopeInput
 kAudioDevicePropertyScopeOutput
 kAudioDevicePropertyStreamConfiguration
+kAudioDevicePropertyStreams
 kAudioHardwarePropertyDevices
 kAudioDevicePropertyDeviceUID
 kAudioObjectPropertyElementMaster
@@ -393,6 +451,7 @@ kAudioObjectPropertyName
 kAudioObjectPropertyScopeGlobal
 kAudioObjectSystemObject
 kAudioOutputUnitProperty_CurrentDevice
+kAudioStreamPropertyLatency
 kAudioUnitScope_Global
 kMIDIPropertyDisplayName
 kMIDIPropertyOffline
