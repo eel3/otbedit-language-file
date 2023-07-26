@@ -1,4 +1,4 @@
-// Python 3 keywords
+// Python 3.11.4 keywords
 
 // reserved words
 False
@@ -37,6 +37,11 @@ while,2
 with,2
 yield,2
 
+// Soft Keywords
+_,2
+case,2
+match,2
+
 // identifiers with special meaning
 @classmethod
 @property
@@ -46,7 +51,9 @@ self
 // built-in functions
 __import__
 abs
+aiter
 all
+anext
 any
 ascii
 bin
@@ -193,17 +200,50 @@ BytesWarning
 ResourceWarning
 
 // standard library (incomplete)
+annotations
 argparse
 argparse.ArgumentParser
+add_argument
+parse_known_args
 argparse.FileType
+argparse.Namespace
 collections
 collections.deque
 collections.namedtuple
+dataclasses
+dataclasses.dataclass
+dataclass
+@dataclass
+datetime
+datetime.date
+date
+datetime.datetime
+datetime.fromisoformat
+datetime.timezone
+enum
+enum.Enum
+Enum
+enum.auto
+auto
+enum.unique
+unique
+@unique
+timezone
 functools
 functools.partial
+partial
 functools.reduce
+io
 ipaddress
 ipaddress.ip_address
+os
+os.path
+os.path.basename
+re
+re.A
+re.ASCII
+re.fullmatch
+re.sub
 socket
 socket.AF_UNSPEC
 socket.IPPROTO_IP
@@ -222,6 +262,9 @@ socket.create_connection
 socket.getaddrinfo
 socket.inet_aton
 socket.socket
+socket.timeout
+string
+string.digits
 struct
 struct.pack
 struct.unpack
@@ -236,3 +279,22 @@ sys.stdout
 sys.stdout.buffer
 wave
 wave.open
+xml
+xml.etree
+xml.etree.ElementTree
+xml.etree.ElementTree.Element
+Element
+
+// type hints (incomplete)
+typing
+Any
+Callable
+BinaryIO
+Final
+NoReturn
+Optional
+TextIO
+Tuple
+TypeAlias
+TypeVar
+Union
